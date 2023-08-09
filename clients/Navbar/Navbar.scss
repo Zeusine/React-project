@@ -1,0 +1,107 @@
+.navbar {
+    height: 80px;
+    .login{
+      button {
+        background-color: rgb(169, 169, 236);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    }
+
+
+    .logout{
+      button {
+        background-color: rgb(169, 169, 236);
+        border: none;
+        color: white;
+        padding: 5px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    }
+
+    .wrapper {
+      padding: 10px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      .it {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: red;
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+      }
+      
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+      .center {
+        font-size: 30px;
+        letter-spacing: 2px;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+  
+        .icons {
+          display: flex;
+          gap: 15px;
+          color: #851111;
+          cursor: pointer;
+          .signUp{
+            position: relative;
+  
+            span {
+              font-size: 12px;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              background-color: #df5709;
+              color: white;
+              position: absolute;
+              right: -10px;
+              top: -10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .cartIcon {
+            position: relative;
+  
+            span {
+              font-size: 12px;
+              width: 20px;
+              height: 20px;
+              border-radius: 50%;
+              background-color: #df5709;
+              color: white;
+              position: absolute;
+              right: -10px;
+              top: -10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,66 @@
+.login{  
+  h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(100, 114, 223);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .link-btn {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block; /* Set the link to be a block element */
+  margin-left: auto; /* Horizontally center the link */
+  margin-right: auto; /* Horizontally center the link */
+  width: fit-content; /* Set the width to fit the content */
+  }
+  .forg-btn {
+    background: none;
+    color: #85410a;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block; /* Set the link to be a block element */
+    margin-left: auto; /* Horizontally center the link */
+    margin-right: auto; /* Horizontally center the link */
+    width: fit-content; /* Set the width to fit the content */
+    }
+}
